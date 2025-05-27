@@ -37,7 +37,9 @@ From the original dataset, the following columns are selected and processed:
 - **Categorical**: `job_type`, `social_platform_preference`, `breaks_during_work`
 - **Target**: `actual_productivity_score`
 
-A new feature `productivity_diff` is engineered as the difference between perceived and actual productivity.
+<img src = "images/heatmap.png"/>
+
+A new feature `productivity_diff` is later engineered as the difference between perceived and actual productivity.
 
 ---
 
@@ -58,9 +60,13 @@ A new feature `productivity_diff` is engineered as the difference between percei
 ### 3. Model Pipeline (`model.py`)
 - A `Pipeline` combines preprocessing and a regression model.
 - Models compared: `Ridge`, `LinearRegression`
-- `GridSearchCV` tunes hyperparameters like alpha, solver, etc.
+<img src="images/pipeline.png"></img>
 
-### 4. Evaluation
+
+- `GridSearchCV` tunes hyperparameters like alpha, solver, etc.
+<img src="images/grid_search.png"></img>
+
+### 4. Evaluation (`model.py`)
 - Metrics reported: R², RMSE, MAE
 
 ### 5. Explainability (`explain.py`)
