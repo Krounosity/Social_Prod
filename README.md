@@ -8,6 +8,7 @@ This project analyzes how various lifestyle and behavioral factors — including
 
 ```bash
 Social Media vs Productivity - ML Pipeline
+|
 │   analysis.ipynb
 │   README.md
 │
@@ -93,18 +94,19 @@ The script will:
 
 ---
 
-## Sample Output
+## Current Output
 
-- R²: Model's fit on test data
-- RMSE: Root Mean Squared Error
-- MAE: Mean Absolute Error
-- SHAP summary plot for top 100 samples
+Results: 
+<img src="images/results.png"></img>
+
+Best parameters:
+<img src="images/params.png"></img>
 
 ---
 
 ## Dataset
 
-The dataset used sources from [this](https://www.kaggle.com/datasets/mahdimashayekhi/social-media-vs-productivity/code) Kaggle dataset website.
+The dataset used sources from [Mahdimashayekhi's](https://www.kaggle.com/mahdimashayekhi) [Social Media v/s Productivity](https://www.kaggle.com/datasets/mahdimashayekhi/social-media-vs-productivity/data) Kaggle dataset website.
 
 ---
 
