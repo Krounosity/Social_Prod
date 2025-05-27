@@ -80,7 +80,7 @@ A new feature `productivity_diff` is later engineered as the difference between 
 ### Installing dependencies:
 
 ```bash
-pip install pandas numpy scikit-learn seaborn matplotlib shap joblib
+pip install -r requirements.txt
 ```
 
 ---
