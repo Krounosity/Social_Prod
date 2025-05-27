@@ -6,6 +6,7 @@ This project analyzes how various lifestyle and behavioral factors — including
 
 ---
 
+```bash
 Social Media vs Productivity - ML Pipeline
 │   analysis.ipynb
 │   README.md
@@ -23,6 +24,7 @@ Social Media vs Productivity - ML Pipeline
         main.py
         model.py
         preprocessing.py
+```
 
 ---
 
