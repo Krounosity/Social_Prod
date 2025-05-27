@@ -5,7 +5,6 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-blue)
 ![Last Commit](https://img.shields.io/github/last-commit/Krounosity/Social-Media-vs-Productivity-ML-Pipeline)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-available-orange)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-orange)
 ---
 This project analyzes how various lifestyle and behavioral factors — including social media usage — impact actual productivity scores. It performs exploratory data analysis, builds preprocessing and regression pipelines, performs model tuning via Grid Search, and interprets results using SHAP.
 
