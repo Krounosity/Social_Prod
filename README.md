@@ -12,13 +12,13 @@ Social Media vs Productivity - ML Pipeline
 │   analysis.ipynb
 │   README.md
 │
-├───data
+├─── /data
 │       social_media_vs_productivity.csv
 │
-├───model
+├─── /model
 │       best_model.pkl
 │
-└───modular_code
+└─── /modular_code
         config.py
         eda.py
         explain.py
