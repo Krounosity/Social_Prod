@@ -23,4 +23,4 @@ evaluate_model(model, X_test, y_test)
 explain_model(model, X_train)
 
 import joblib
-joblib.dump(model.best_estimator_, 'model/best_model.pkl')
+joblib.dump(model.best_estimator_, '../model/best_model.pkl')

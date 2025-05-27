@@ -1,7 +1,7 @@
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import Ridge, LinearRegression
 from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+from sklearn.metrics import root_mean_squared_error, r2_score, mean_absolute_error
 import joblib
 
 def build_pipeline(preprocessor):
@@ -31,5 +31,5 @@ def tune_model(pipe, X_train, y_train):
 def evaluate_model(model, X_test, y_test):
     y_pred = model.predict(X_test)
     print("R²:", r2_score(y_test, y_pred))
-    print("RMSE:", mean_squared_error(y_test, y_pred, squared=False))
+    print("RMSE:", root_mean_squared_error(y_test, y_pred, squared=False))
     print("MAE:", mean_absolute_error(y_test, y_pred))
